@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Men of Oregon</title>
+  <meta name="description" content="Essays on character, community, and the Oregon way of life.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <img src="images/logo.png" alt="Men of Oregon logo">
+        <span>Men of Oregon</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <h1>The Blog</h1>
+    <p>Essays on character, community, and the Oregon way of life.</p>
+  </section>
+
+  <!-- Blog Posts -->
+  <div class="blog-grid" id="blog-posts">
+    <article class="blog-post-card">
+      <div class="post-date">March 12, 2026</div>
+      <h3><a href="blog/posts/why-men-of-oregon.html">Why "Men of Oregon"</a></h3>
+      <p class="post-excerpt">The story behind the name, and why Bowerman's words still matter.</p>
+      <a href="blog/posts/why-men-of-oregon.html" class="read-more">Read More &rarr;</a>
+    </article>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">Men of Oregon</div>
+      <p>&copy; 2026 menoforegon.org &middot; All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
